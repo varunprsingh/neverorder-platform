@@ -1,0 +1,55 @@
+## .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.userprefs
+.vs/
+artifacts/
+TestResults/
+*.trx
+*.coverage
+coverage*.json
+coverage*.xml
+BenchmarkDotNet.Artifacts/
+
+## Rider / VS Code
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+## Node / frontend
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## Local infrastructure (scripts/pg-local.ps1)
+.postgres/
+
+## Local run output
+*.log
+
+## Secrets & environment — never commit
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.key
+
+## OS
+.DS_Store
+Thumbs.db

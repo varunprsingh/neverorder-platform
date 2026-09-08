@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{D48FCCF1-6126-4CD3-AFA3-668CA04C0250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverOrder.Domain", "backend\NeverOrder.Domain\NeverOrder.Domain.csproj", "{E482BCE3-8B8B-4474-A561-BC0AC0CBDBCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverOrder.Application", "backend\NeverOrder.Application\NeverOrder.Application.csproj", "{B9880726-83CD-4F98-935F-E74D5476E90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverOrder.Infrastructure", "backend\NeverOrder.Infrastructure\NeverOrder.Infrastructure.csproj", "{E67652E9-B2BD-409B-BE1F-B860BC0E2716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverOrder.Api", "backend\NeverOrder.Api\NeverOrder.Api.csproj", "{89692EC3-FA07-4CF1-B796-6C7C5029EC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverOrder.Tests.Unit", "backend\NeverOrder.Tests.Unit\NeverOrder.Tests.Unit.csproj", "{2B6EE49E-EB25-493C-975C-E8F4C3DB8E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverOrder.Tests.Integration", "backend\NeverOrder.Tests.Integration\NeverOrder.Tests.Integration.csproj", "{6FACF713-C2AD-4D08-8106-7E19A3BAA87C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E482BCE3-8B8B-4474-A561-BC0AC0CBDBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E482BCE3-8B8B-4474-A561-BC0AC0CBDBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E482BCE3-8B8B-4474-A561-BC0AC0CBDBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E482BCE3-8B8B-4474-A561-BC0AC0CBDBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9880726-83CD-4F98-935F-E74D5476E90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9880726-83CD-4F98-935F-E74D5476E90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9880726-83CD-4F98-935F-E74D5476E90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9880726-83CD-4F98-935F-E74D5476E90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67652E9-B2BD-409B-BE1F-B860BC0E2716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67652E9-B2BD-409B-BE1F-B860BC0E2716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67652E9-B2BD-409B-BE1F-B860BC0E2716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67652E9-B2BD-409B-BE1F-B860BC0E2716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89692EC3-FA07-4CF1-B796-6C7C5029EC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89692EC3-FA07-4CF1-B796-6C7C5029EC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89692EC3-FA07-4CF1-B796-6C7C5029EC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89692EC3-FA07-4CF1-B796-6C7C5029EC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6EE49E-EB25-493C-975C-E8F4C3DB8E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6EE49E-EB25-493C-975C-E8F4C3DB8E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6EE49E-EB25-493C-975C-E8F4C3DB8E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6EE49E-EB25-493C-975C-E8F4C3DB8E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FACF713-C2AD-4D08-8106-7E19A3BAA87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FACF713-C2AD-4D08-8106-7E19A3BAA87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FACF713-C2AD-4D08-8106-7E19A3BAA87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FACF713-C2AD-4D08-8106-7E19A3BAA87C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E482BCE3-8B8B-4474-A561-BC0AC0CBDBCD} = {D48FCCF1-6126-4CD3-AFA3-668CA04C0250}
+		{B9880726-83CD-4F98-935F-E74D5476E90C} = {D48FCCF1-6126-4CD3-AFA3-668CA04C0250}
+		{E67652E9-B2BD-409B-BE1F-B860BC0E2716} = {D48FCCF1-6126-4CD3-AFA3-668CA04C0250}
+		{89692EC3-FA07-4CF1-B796-6C7C5029EC8E} = {D48FCCF1-6126-4CD3-AFA3-668CA04C0250}
+		{2B6EE49E-EB25-493C-975C-E8F4C3DB8E5A} = {D48FCCF1-6126-4CD3-AFA3-668CA04C0250}
+		{6FACF713-C2AD-4D08-8106-7E19A3BAA87C} = {D48FCCF1-6126-4CD3-AFA3-668CA04C0250}
+	EndGlobalSection
+EndGlobal

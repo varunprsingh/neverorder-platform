@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Intentionally dependency-free: no EF, no ASP.NET, no NuGet packages. -->
+
+</Project>
